@@ -121,7 +121,7 @@ var WildRydes = window.WildRydes || {};
         signin(email, password,
             function signinSuccess() {
                 console.log('Successfully Logged In');
-                window.location.href = 'ride.html';
+                window.location.href = 'signed-in.html';
             },
             function signinError(err) {
                 alert(err);
